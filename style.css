@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway&family=Pacifico&display=swap");
+/*@import url("https://fonts.googleadis.com/css2?family=Pacifico&display=swap");*/
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Raleway", sans-serif;
+}
+
+nav {
+    
+display: flex;
+justify-content: space-between;
+padding: 20px 10%;
+align-items: center;
+}
+
+#logo{
+    font-family: "Pacifico";
+    text-decoration: none;
+    color: #202020;
+    font-size: 35px;
+}
+
+.links a {
+    text-decoration: none;
+    color: #555;
+    padding: 5px 10px;
+    font-size: 18px;
+
+}
+
+nav button {
+    padding: 10px 20px;
+    border-radius: 50px;
+    border: none;
+    background-color: #e90a0a; 
+    color: white;
+    box-shadow: 0 2px 15px #eb0404;  
+    cursor: pointer; 
+    transition: 0.5s;
+}
+
+nav button:hover{
+    background-color: black;
+    color: white;
+    box-shadow: 0 0 15px 10px red;
+}
